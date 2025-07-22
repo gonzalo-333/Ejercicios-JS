@@ -31,7 +31,8 @@ function conversion(subcadenas, index){
         recursionActual = TRADUCCION.cientos;
     }
 
-    // coloco al inicio la primer recursión y la concateno con la llamada recursiva
+    // coloco al inicio el primer valor que toma la variable y la concateno con la llamada recursiva
+    // donde va a ir cambiando su valor y concatenandose uno a otro
     return recursionActual + conversion(subcadenas, index + 1);
 }
 
