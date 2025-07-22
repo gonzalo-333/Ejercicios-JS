@@ -36,7 +36,7 @@ function conversion(subcadenas, index){
 
     // coloco al inicio la primer recursión y la concateno con la variable que se ocupa de
     // hacer las otras recursiones hasta llegar al caso base, donde se detiene y devuelve
-    // los valores
+    // los valores en el diccionario
     return recursionActual + recursionProxima
 }
 
