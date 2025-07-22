@@ -14,7 +14,7 @@ let rebanadas = CIFRA.split(".");
 // y accede según el valor de index que le pasemos en el segundo argumento
 function conversion(subcadenas, index){
     // establezco el caso base que detiene la recursión
-    if (index == subcadenas.length){
+    if (index === subcadenas.length){
         return "";
     } 
 
@@ -23,11 +23,11 @@ function conversion(subcadenas, index){
 
     // según la se cumplan las condiciones de evaluación la variable declarada anteriormente
     // toma el valor del diccionario traduccion según la expresión resulte verdadera
-    if (subcadenas[index] == "99" && index == 0){
+    if (subcadenas[index] === "99" && index === 0){
         recursionActual = TRADUCCION.millones;
-    } else if (subcadenas[index] == "999" && index == 1){
+    } else if (subcadenas[index] === "999" && index === 1){
         recursionActual = TRADUCCION.miles;
-    } else if (subcadenas[index] == "999" && index == 2){
+    } else if (subcadenas[index] === "999" && index === 2){
         recursionActual = TRADUCCION.cientos;
     }
 
