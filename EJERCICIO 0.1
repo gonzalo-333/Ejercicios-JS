@@ -1,0 +1,10 @@
+// recursiva que suma todos los numeros entre dos valores
+function sumar(inicio, fin){
+  if (inicio >= fin){
+    return 0;
+  };
+  inicio += 1;
+  return inicio + sumar(inicio, fin);
+}
+
+console.log(sumar(0, 10));
