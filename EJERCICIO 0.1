@@ -1,4 +1,4 @@
-// recursiva que suma todos los numeros entre dos valores
+// Recursiva que suma todos los numeros entre dos valores
 function sumar(inicio, fin){
   if (inicio >= fin){
     return 0;
@@ -8,3 +8,13 @@ function sumar(inicio, fin){
 }
 
 console.log(sumar(0, 10));
+
+// Recursiva factorial de numero 
+function factorial(n){
+  if(n === 0){
+    return 1;
+  };
+  return n * factorial(n - 1);
+}
+
+console.log(factorial(8))
