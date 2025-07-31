@@ -1,4 +1,4 @@
-Ejercicio en **javascript**: recibe el numero _99.999.999_ y lo traduce en palabras, obteniendo _"noventa y nueve millones, novescientos noventa y nueve mil, novescientos noventa y nueve"_
+Ejercicios variados en **javascript**
 
 <!--
 **gonzalo-333/gonzalo-333** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
