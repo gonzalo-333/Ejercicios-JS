@@ -1,3 +1,6 @@
+/* Ejercicio en javascript: recibe el numero 99.999.999 y lo traduce en palabras, 
+obteniendo "noventa y nueve millones, novescientos noventa y nueve mil, novescientos noventa y nueve" */
+
 // defino constante del numero
 const CIFRA = "99.999.999";
 // defino constante del diccionario de traduccion
